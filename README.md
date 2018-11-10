@@ -13,7 +13,7 @@ How to use it?
 
 But add some additional features to create-react-app:
 
-## Unlock the following features:
+## Added the following features:
 
 In the project directory, you can run:
 
