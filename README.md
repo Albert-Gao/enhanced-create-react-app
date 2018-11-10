@@ -29,3 +29,7 @@ npm install --dev npm-check
 ```
 
 Then replace the `update` script in `package.json` to this: `npm-check -u`
+
+### `yarn inspectBundle`
+
+It will build your production build and analysis your bundle file in a nice way.

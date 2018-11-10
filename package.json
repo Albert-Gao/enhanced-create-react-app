@@ -12,6 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "inspectBundle": "node ./inspectBundle.js",
     "update": "yarn upgrade-interactive && syncyarnlock"
   },
   "eslintConfig": {
@@ -24,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "syncyarnlock": "^1.0.11"
+    "syncyarnlock": "^1.0.11",
+    "webpack-bundle-analyzer": "^3.0.3"
   }
 }
