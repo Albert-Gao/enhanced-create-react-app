@@ -19,7 +19,11 @@ In the project directory, you can run:
 
 Just add `eslintConfig` to `package.json`
 
-#### 2. `yarn update` or `npm run update`
+#### 2. Use `normalize.css`
+
+A better version `reset.css`, already installed and imported in `index.js`.
+
+#### 3. `yarn update` or `npm run update`
 
 It will interactively check the latest version for your packages and let you choose whether to update or not.
 
@@ -32,11 +36,11 @@ npm install --dev npm-check
 
 Then replace the `update` script in `package.json` to this: `npm-check -u`
 
-#### 3. `yarn inspectBundle` or `npm run inspectBundle`
+#### 4. `yarn inspectBundle` or `npm run inspectBundle`
 
 It will build your production build and analysis your bundle file in a nice way.
 
-#### 4. `yarn formatAllCode` or `npm run formatAllCode`
+#### 5. `yarn formatAllCode` or `npm run formatAllCode`
 
 It will format all your JavaScript code with `prettier`.
 
