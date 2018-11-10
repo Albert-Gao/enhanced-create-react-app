@@ -45,3 +45,7 @@ It will build your production build and analysis your bundle file in a nice way.
 It will format all your JavaScript code with `prettier`.
 
 If you use `TypeScript`, change the `formatAllCode` script to `./node_modules/.bin/prettier --parser typescript --write './src/**/*.ts' './src/**/*.tsx'`
+
+#### 6. Added a simple hot module reloading
+
+Warning: Just for faster static editing. Component state won't be HMRed.
