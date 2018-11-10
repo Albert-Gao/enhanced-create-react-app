@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Why use this rather than the official create-react-app:
+## Why use this rather than the official create-react-app:
 
 - This project just uses the official CRA to bootstrap.
 - NO eject. Everything is original.
 - Just add few more features to make developer life easier.
 
-How to use it?
+## How to use it?
 
 - Clone or fork this repo instead of `create-react-app blahBlah`
 - Then start coding.
