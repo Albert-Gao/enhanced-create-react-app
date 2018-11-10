@@ -13,9 +13,13 @@ How to use it?
 
 But add some additional features to create-react-app:
 
-## Available Scripts
+## Unlock the following features:
 
 In the project directory, you can run:
+
+### Enable the in-IDE ESLint tips
+
+Just add `eslintConfig` to `package.json`
 
 ### `yarn update`
 
