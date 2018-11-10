@@ -11,8 +11,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Clone or fork this repo instead of `create-react-app blahBlah`
 - Then start coding.
 
-But add some additional features to create-react-app:
-
 ## Added the following features:
 
 In the project directory, you can run:
