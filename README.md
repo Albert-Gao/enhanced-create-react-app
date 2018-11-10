@@ -49,3 +49,7 @@ If you use `TypeScript`, change the `formatAllCode` script to `./node_modules/.b
 #### 6. Added a simple hot module reloading
 
 Warning: Just for faster static editing. Component state won't be HMRed.
+
+#### 7. Added absolute import
+
+With that `.env` file in your project root, now in your `App.js`, you can import `import logo from 'assets/logo.svg';` without using those nasty `../`.
