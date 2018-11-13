@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "formatAllCode": "./node_modules/.bin/prettier --write './src/**/*.js'",
     "inspectBundle": "node ./inspectBundle.js",
-    "update": "yarn upgrade-interactive && syncyarnlock"
+    "update": "yarn upgrade-interactive && syncyarnlock --save --keepUpArrow"
   },
   "eslintConfig": {
     "extends": "react-app"
