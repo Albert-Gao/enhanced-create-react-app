@@ -31,7 +31,7 @@ It you use `yarn` over `npm`, please run the following command:
 
 ```bash
 npm uninstall npm-check
-npm install syncyarnlock
+npm install -D syncyarnlock
 ```
 
 Then replace the `update` script in `package.json` to this: `yarn upgrade-interactive && syncyarnlock`, yarn has an annoying bug where after updating, it won't bump the version number in package.json. `syncyarnlock` solves this by generate an extra `package.json` file, if you write changes to the original `package.json`, then yarn will complain about `outdated lock file`. So I finally go away with `yarn` until this bug is fixed.
