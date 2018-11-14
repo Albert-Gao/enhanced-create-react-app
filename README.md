@@ -23,18 +23,18 @@ Just add `eslintConfig` to `package.json`
 
 A better version `reset.css`, already installed and imported in `index.js`.
 
-#### 3. `yarn update` or `npm run update`
+#### 3. `npm run update`
 
 It will interactively check the latest version for your packages and let you choose whether to update or not.
 
-It you use `npm` over `yarn`, please run the following command:
+It you use `yarn` over `npm`, please run the following command:
 
 ```bash
-npm uninstall syncyarnlock
-npm install --dev npm-check
+npm uninstall npm-check
+npm install syncyarnlock
 ```
 
-Then replace the `update` script in `package.json` to this: `npm-check -u`
+Then replace the `update` script in `package.json` to this: `yarn upgrade-interactive && syncyarnlock`, yarn has an annoying bug where after updating, it won't bump the version number in package.json. `syncyarnlock` solves this by generate an extra `package.json` file, if you write changes to the original `package.json`, then yarn will complain about `outdated lock file`. So I finally go away with `yarn` until this bug is fixed.
 
 #### 4. `yarn inspectBundle` or `npm run inspectBundle`
 
